@@ -1,0 +1,54 @@
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+
+.topbox {
+    max-width: 800px; 
+    margin-left: auto; 
+    margin-right: auto;
+    height: 400px;
+    background-image: url(Images/dog.jpg) ;
+    overflow: hidden; 
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body {
+    background-color: #f6f0e6; 
+    margin: 0; 
+    padding: 0; 
+    font-family: Arial, sans-serif; 
+}
+
+#dogImages {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    overflow: hidden; 
+}
+
+
+#dogImages img {
+    width: 250px; 
+    height: 250px; 
+    object-fit: cover;
+    margin-bottom: 10px; 
+}
+
+.submitButton {
+    background-color: #044e5d; 
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submitButton:hover {
+    background-color: #0a7378; 
+}
